@@ -12,7 +12,7 @@ int main() {
 
     int t = 1;
     cin >> t;
-    for (int i;i <= t;i++){
+    for (int i=0;i <= t;i++){
         string s;
         cin >> s;
 
