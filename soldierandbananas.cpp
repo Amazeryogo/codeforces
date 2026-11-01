@@ -13,6 +13,6 @@ int main() {
     ll k,n,w;
     cin >> k >> n >> w;
     ll cost = k*(((w)*(w+1))/2);
-    cout << max(0,cost - n) << "\n";
+    cout << max(0LL,cost - n) << "\n";
     return 0;
 }
