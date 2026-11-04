@@ -11,8 +11,8 @@ int main() {
     cin.tie(nullptr);
     ll n,m,a;
     cin >> n >> m >> a;
-    ll  x = (n + a - 1) / a;
-    ll y = (m + a - 1) / a;
+    ll  x = (n+a-1)/a;
+    ll y = (m+a-1)/a;
     cout << x * y << "\n";
 
 }

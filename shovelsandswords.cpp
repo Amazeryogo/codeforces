@@ -12,8 +12,10 @@ int main() {
 
     int t;
     cin >> t;
-    for (int i=0;i <= t;i++){
-        
+    for (int i=0;i < t;i++){
+        int a, b;
+        cin >> a >> b;
+        cout << min({a, b, (a+b)/3}) << "\n";
     }
     return 0;
 }

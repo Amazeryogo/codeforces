@@ -14,8 +14,8 @@ int main() {
     cin >> a >> b;
     ll p = 1;
     while (a != b) {
-            if (a > b) {ll k = (a - 1) / b;p += k;a -= k * b;}
-            else {ll k = (b - 1) / a;p += k;b -= k * a;}}
+            if (a > b) {ll k =(a-1)/b;p += k;a -= k * b;}
+            else {ll k =(b-1)/a;p += k;b -= k * a;}}
         cout << p << '\n';
         return 0;
 }
