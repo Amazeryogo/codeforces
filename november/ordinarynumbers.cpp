@@ -6,13 +6,12 @@ using pii = pair<int, int>;
 using vi = vector<int>;
 using vll = vector<ll>;
 bool d(int num){
-    if (num < 10) { return true;}
-    { // fix this shit ienbitreobniwert i0r3 iq3 bi0q3ie    bi0 b
-    int d0 = (num / 1000) % 10;
-    int d1 = (num / 100) % 10;
-    int d2 = (num / 10) % 10;
-    int d3 = num % 10;
-    return ((d0 != d1) && (d0 != d2) && (d0 != d3) &&(d1 != d2) && (d1 != d3) &&(d2 != d3));
+    if (num < 10) { return true;} 
+    string s = to_string(num);
+    char k = s[0]; bool r=false;
+    for (size_t i = 1; i < s.length() ; ++i) {
+        if (s[i] == k)
+    }
     }
 }
 int main() {
