@@ -19,7 +19,7 @@ int main() {
         for (ll &x : a) cin >> x;
         sort(a.begin(), a.end());
         ll m = a[n / 2],c = 0;
-        for (long long x : a) c += llabs(x - m);
+        for (ll x : a) c += llabs(x - m);
         cout << c << " " << a[n - 1] - a[0] << "\n";
         }
     return 0;
