@@ -18,7 +18,7 @@ int main() {
         cin >> n;
         vll a(n + 1, 0);
         ll tot = 0;
-        for (int j = 1; j <= n; j++) { cin >> a[j]; tot += a[j]; }
+        for (int j = 1; j <= n; j++) {cin >> a[j]; tot += a[j];}
         if (n == 1) { cout << a[1] << "\n"; continue;}
         vll L(n + 1, 0), R(n + 1, 0);
         bool f = false;
